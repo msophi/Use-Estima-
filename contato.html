@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos - Use Estima </title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1 class="logo"><img src="./logo1.PNG" alt="logo" width="250px"></h1>
+
+            <nav>
+                <ul> 
+                    
+                    <li><a href="home.html">Home</a></li>
+                    <li> <a href="index.html">Empresa </a></li>
+                    <li><a href="produto.html"> Produtos </a></li>
+                    
+                </ul>
+
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <form action="">
+            <label for="nomeSobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomeSobrenome"  class="input-padrao" required placeholder="Digite seu nome e sobrenome">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)99999-9999">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="" id="mensagem" cols="68" rows="10" class="input-padrao" placeholder="Deixe sua mensagem para Use Estima"></textarea>
+
+            <fieldset>
+
+                <p>Como prefere o nosso contato?</p>
+
+                <label for="radio-email"> <input type="radio" name="contato" id="radio-email">E-mail</label>
+
+
+                <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone">Telefone</label>
+
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" checked>
+                    Whatsapp</label>
+
+
+            </fieldset>
+
+            <input type="submit" value="Enviar formulario" class="enviar ">
+
+
+
+
+
+
+        </form>
+
+
+
+
+    </main>
+
+    <footer>
+        <img src="./logo1.PNG" alt=" rodape">
+        <p class="copy">&copy;Copyright - Use estima  </p>
+
+
+    </footer>
+
+    
+</body>
+</html>

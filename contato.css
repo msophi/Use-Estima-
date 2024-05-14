@@ -1,0 +1,102 @@
+header{
+    background-color: #e4e2dd;
+}
+
+
+
+.caixa {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    top: 129px;
+    right: 0;
+
+    border: solid 1px #000000;
+    border-radius: 5px;
+
+    background-color: #b3c1a1;
+    
+}
+nav li{
+    display: inline;
+    margin-left: 5px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+ 
+}
+nav a:hover{
+    color: wheat;
+    text-decoration: underline
+
+    
+}
+
+.logo{
+    width: 300px;
+    
+    
+}
+
+form{
+    margin: 40px 0;
+    text-align: center;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 10px 25px;
+    width: 50%;
+    margin-left: 320px;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background:#b3c1a1;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+.enviar:hover{
+    background-color:#586448;
+    transform: rotate(-70deg) scale(1.2);
+
+
+}
+
+footer{
+    text-align: center;
+   background-color: #e4e2dd;
+}
+
+footer p{
+    color: #000000;
+    font-size:  13px;
+    margin: 20px 0 0;
+    
+
+   
+
+}

@@ -1,0 +1,145 @@
+header{
+    background: #e4e2dd;
+}
+
+.caixa {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    top: 129px;
+    right: 0;
+
+    border: solid 1px #000000;
+    border-radius: 5px;
+
+    background-color: #b3c1a1;
+    
+}
+nav li{
+    display: inline;
+    margin-left: 5px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+ 
+}
+nav a:hover{
+    color: wheat;
+    text-decoration: underline;
+
+}
+.beneficios{
+    text-align: center;
+    font-size: 18px;
+    font-family: "MonteCarlo";
+    color: #848f76;
+}
+.pele{
+    font-weight: bolder;
+}
+
+.container{
+    padding: 150px 0;
+    background: linear-gradient(to bottom, #ebe8e8,#a1a897);  
+}
+.produto{
+    width:940px ;
+    margin: 0 auto;
+    padding: 50px 40;
+    margin-top: 130px;
+
+    
+}
+.produto li{
+    display: inline-block;
+    text-align: center;
+    width: 19%;
+    vertical-align: top;
+
+    margin: 0 2.1%;
+    padding:20px 20px ;
+    box-sizing: border-box;
+    border: solid 2px #fcf4f4;
+    border-radius: 10px;
+    
+}
+.produto li:hover{
+    border-color: #697756;
+
+}
+
+.produto li:active{
+    border-color: #B3C1A1
+}
+
+h1{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+h5{
+    font-style: italic;
+}
+
+h5{
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 15px;
+}
+h6{
+    font-weight: bold;
+
+ }  
+
+main{
+    
+    width: 100%;
+   
+ background: linear-gradient(#ffffff, #E4E2DD);
+
+
+}
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: arial;
+    gap: 16px;
+
+
+}
+
+button a{
+    color:#000000;
+    font-size: 15px;
+   font-weight: bold;
+
+    
+}
+
+button a:hover{
+    color: red
+}
+
+
+footer{
+    text-align: center;
+   background-color:#E4E2DD ;
+}
+
+footer p{
+    color: #000000;
+    font-size:  13px;
+    margin: 20px 0 0;
+    
+}

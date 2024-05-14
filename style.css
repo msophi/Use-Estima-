@@ -1,0 +1,188 @@
+
+body {
+    background-color:  #f1efeb;
+}
+
+
+
+header{
+    background: #e4e2dd;
+}
+
+.caixa {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    top: 129px;
+    right: 0;
+
+    border: solid 1px #000000;
+    border-radius: 5px;
+
+    background-color: #b3c1a1;
+    
+}
+nav li{
+    display: inline;
+    margin-left: 5px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+ 
+}
+nav a:hover{
+    color: wheat;
+    text-decoration: underline;
+
+    
+}
+.logo{
+    width: 300px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 25px ;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+
+/*.canto{
+    float: right;
+    width: 500px;
+    margin-right: 20px;
+    margin-top: -30px;
+  
+  
+}*/
+
+
+
+.empresa{
+    margin-left: 180px;
+    width: 70%;
+}
+
+
+.paragrafo{
+    font-size: 30px;
+    line-height: 1.6;
+font-family: "MonteCarlo", cursive;
+font-weight: 400;
+margin-bottom: 10px;
+color: #848f76;
+    
+}
+
+.paragrafo2{
+    font-size: 18px;
+
+    color: #848f76;
+    /* font-family: Comic Sans; */
+    font-family: Tahoma, sans-serif;
+    
+
+}
+
+
+p{
+    font-size: 18px;
+   /* margin-left: 1px;*/
+    font-family:arial;
+}
+
+ul{
+    font-size: 18px;
+    font-family:arial;
+    margin-left: 1px;;
+   
+}
+
+.beneficios{
+    overflow: hidden;
+    font-family:arial;
+    color: #646d58;
+    text-align: center;
+}
+
+
+.pele{
+    text-align: center;
+}
+
+.lista li::before{
+    content: "★";
+
+}
+.container{
+    display:flex;
+    
+}
+
+.nossodiferencial{
+    width: 50%;
+    height: 50%;
+    margin-left: 50px;
+
+}
+
+.vantangens{
+    width: 50%;
+    height: 50%;
+    color: #646d58;
+    
+
+}
+
+
+
+.lista{
+    color: #737c68;
+    font-family: "MonteCarlo", cursive;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.image7{
+    margin-left: 80px;
+    margin-top: 50%;
+
+}
+
+.img{
+    width: 300px;
+    float: right;
+    display: flex;
+    position: absolute;
+   
+}
+footer{
+    text-align: center;
+   background-color: #e4e2dd;
+}
+
+footer p{
+    color: #000000;
+    font-size:  13px;
+    margin: 20px 0 0;
+    
+    
+
+   
+
+}
